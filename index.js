@@ -11,23 +11,36 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
+
+
   if (msg.content === 'amogus') {
     console.log('ඞ');
     msg.reply('ඞ');
   }
-
-
-  if (msg.content === '!tableflip'){
-    console.log('table flip started')
-    chanID = msg.channel.id;
-    
-    
-    
+  if (msg.content === 'AMOGUS') {
+    console.log('ඞඞඞඞඞඞ');
+    for(i=0; i<10; i++){
+      msg.reply('ඞ');
+    }
     
   }
-  if(msg.content === '!nuclear'){
-    console.log('nuclear option started');
-    msg.channel.delete();
+  if (msg.content === '!tableflip') {
+    console.log('Table flip started');
+    if (msg.member.hasPermission('ADMINISTRATOR')) {
+      msg.channel.clone();
+      msg.channel.delete();
+      console.log('Table flipped');
+    }
+    else msg.reply('You are not an admin.');
+  }
+
+  if (msg.content === '!nuclear') {
+    console.log('Nuclear option initiated');
+    if (msg.member.hasPermission('ADMINISTRATOR')) {
+      msg.channel.delete();
+      console.log('Nuked');
+    }
+    else msg.reply('You are not an admin.');
   }
 });
 
