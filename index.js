@@ -12,16 +12,22 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'amogus') {
+    console.log('ඞ');
     msg.reply('ඞ');
   }
 
 
   if (msg.content === '!tableflip'){
+    console.log('table flip started')
     chanID = msg.channel.id;
     
-    msg.channel.delete();
-    msg.guild.channels.create(chanID);
     
+    
+    
+  }
+  if(msg.content === '!nuclear'){
+    console.log('nuclear option started');
+    msg.channel.delete();
   }
 });
 
