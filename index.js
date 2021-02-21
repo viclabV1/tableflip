@@ -17,13 +17,14 @@ client.on('message', msg => {
     console.log('ඞ');
     msg.reply('ඞ');
   }
+/*  
   if (msg.content === 'AMOGUS') {
     console.log('ඞඞඞඞඞඞ');
     for(i=0; i<10; i++){
       msg.reply('ඞ');
     }
-    
   }
+*/
   if (msg.content === '!tableflip') {
     console.log('Table flip started');
     if (msg.member.hasPermission('ADMINISTRATOR')) {
