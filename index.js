@@ -67,8 +67,8 @@ client.on('message', msg => {
 */
 });
 helpMessage = 'This bot allows admins to clear messages from a channel. This can be done in 2 ways. The first is by typing using the "!tableclear" command. '
-+'This command will delete a specified number of messages from a channel. It can be called in the following way: "!tableclear [number between 1 and 100]. "'
-+'The second way to clear messages is by using the "!tableflip" command. Simply enter "!tableflip" to delete all messages from a channel. There is also another command that I am not even going to tell you because it is just stupid. Have fun!';
++'This command will delete a specified number of messages from a channel. It can be called in the following way: "!tableclear [number between 1 and 100]". '
++'The second way to clear messages is by using the "!tableflip" command. Simply enter "!tableflip" to delete all messages from a channel. Amogus is also a command you can use. If you want. I hate myself for including it but whatever.';
 
 
 
