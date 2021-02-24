@@ -1,0 +1,23 @@
+{
+  "name": "tableflip",
+  "version": "1.0.0",
+  "description": "This is a fairly simple Discord bot that clears everything in a text channel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viclabV1/tableflip.git"
+  },
+  "author": "viclabV1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viclabV1/tableflip/issues"
+  },
+  "homepage": "https://github.com/viclabV1/tableflip#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
