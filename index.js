@@ -45,7 +45,9 @@ client.on('message', msg => {
     if(msg.member.hasPermission('ADMINISTRATOR')){
       num = Math.round(msg.content.replace('!tableclear ', ''));
       if((num>=1)&&(num<=100)){
-          msg.channel.bulkDelete(num);
+          msg.channel.bulkDelete(num)
+		.then(console.log(`Cleared ` + num + ' messages'))
+  		.catch(console.error);
         }
       else {
         msg.reply('Invalid Input! Use the "!help" command to review the syntax.');
