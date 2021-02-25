@@ -7,7 +7,7 @@ If you want to attach this code to your own bot, create a .env file in the repos
 If you just want to use my bot, go ahead and use this link to let the bot in:
 
 (THIS MAY CHANGE)
-https://discord.com/api/oauth2/authorize?client_id=812414609850892329&permissions=16&scope=bot
+https://discord.com/api/oauth2/authorize?client_id=812414609850892329&permissions=10256&scope=bot
 
 
 COMMANDS:
