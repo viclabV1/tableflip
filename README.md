@@ -14,6 +14,6 @@ COMMANDS:
 
 !tableflip : [ADMINISTRATOR ONLY] This will delete everything in a channel by making a copy of the channel and deleting the original. 
 
-!nuclear : [ADMINISTRATOR ONLY] This will delete the channel itself.
+!tableclear [1-100] : Deletes between 1 and 100 messages in a channel. 
 
 amogus : This one is just stupid.
