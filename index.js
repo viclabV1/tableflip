@@ -4,7 +4,7 @@ const { userInfo } = require('os');
 const client = new Discord.Client();
 const dumbImage= new Discord.MessageEmbed()
   .setTitle('for you')
-	.attachFiles(['/home/vicclab/Dev/annihilation-discord/tableflip/dt5h8coj40n51.png'])
+	.attachFiles(['./dt5h8coj40n51.png'])
 	.setImage('attachment://clown.png');
 //const userMan = new Discord.UserManager();
 //const channelMan = new Discord.ChannelManager();
