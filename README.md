@@ -7,13 +7,13 @@ If you want to attach this code to your own bot, create a .env file in the repos
 If you just want to use my bot, go ahead and use this link to let the bot in:
 
 (THIS MAY CHANGE)
-https://discord.com/api/oauth2/authorize?client_id=812414609850892329&permissions=16&scope=bot
+https://discord.com/api/oauth2/authorize?client_id=812414609850892329&permissions=10256&scope=bot
 
 
 COMMANDS:
 
 !tableflip : [ADMINISTRATOR ONLY] This will delete everything in a channel by making a copy of the channel and deleting the original. 
 
-!nuclear : [ADMINISTRATOR ONLY] This will delete the channel itself.
+!tableclear [1-100] : Deletes between 1 and 100 messages in a channel. 
 
 amogus : This one is just stupid.
