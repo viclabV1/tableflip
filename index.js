@@ -2,7 +2,10 @@ const Discord = require('discord.js');
 const DotEnv = require('dotenv').config()
 const { userInfo } = require('os');
 const client = new Discord.Client();
-
+const dumbImage= new Discord.MessageEmbed()
+  .setTitle('for you')
+	.attachFiles(['/home/vicclab/Dev/annihilation-discord/tableflip/dt5h8coj40n51.png'])
+	.setImage('attachment://clown.png');
 //const userMan = new Discord.UserManager();
 //const channelMan = new Discord.ChannelManager();
 //const guildMan = new Discord.GuildManager();
@@ -47,7 +50,7 @@ if (msg.content.includes('!roleconfig')&& !(msg.content.includes(helpMessage))){
       msg.channel.delete();
       console.log('Table flipped');
     }
-    else msg.reply('You do not have the correct role.');
+    else msg.reply(dumbImage);
   }
 //tableclear command
   if (msg.content.includes('!tableclear')&& !(msg.content.includes(helpMessage))){
